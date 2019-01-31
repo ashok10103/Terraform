@@ -13,3 +13,15 @@ variable "AMIS" {
     eu-west-2  = "	ami-4bc7cd2f"
   }
 }
+
+variable "PATH_T0_PRIVATEKEY" {
+  default = "awsirelandkey"
+}
+
+variable "PATH_TO_PUBLICKEY" {
+  default = "awsirelandkey.pub"
+}
+
+variable "INSTANCE_USERNAME" {
+  default = "ubuntu"
+}
